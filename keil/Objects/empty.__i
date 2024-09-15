@@ -1,0 +1,6 @@
+-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+-gdwarf-4 -O2 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -Wno-covered-switch-default -Wno-unreachable-code-break -I ../../source/third_party/CMSIS/Core/Include -I ../../source -I ../ti -I ../../empty
+-ID:/Keil_v5/ARM/CMSIS/Include
+-D__UVISION_VERSION="538" -D__MSPM0L1306__ -D__MSPM0L1306__
+-o ./objects/empty.o -MD "../empty.c"
